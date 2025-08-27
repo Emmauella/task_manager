@@ -29,3 +29,26 @@
 
 # elif age >= 18 or average == 10:
 #     print(f"{username}, You are allowed to vote.")
+
+
+# from add import add_task
+# from show import show_tasks
+
+# task_title = input("Whats task are you going to do?: ")
+# add_task({"title": task_title})
+
+# for task in show_tasks():
+#     print(task)
+
+
+import tkinter as tk
+import ui
+
+app= tk.Tk()
+app.title("Task Manager")
+app.geometry("720x480")
+
+
+ui.show_all_tasks_frame(app)
+
+app.mainloop()

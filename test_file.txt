@@ -1,0 +1,11 @@
+A - wrong
+C - right
+C - right
+B - right
+A - right
+A - right
+B - wrong
+A - wrong
+B - right
+B - right
+7/10
